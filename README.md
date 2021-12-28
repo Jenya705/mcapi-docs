@@ -1,4 +1,4 @@
-|description|
-|-----------|
-|mcapi is the minecraft rest api for everyone|
-
+---
+description: >-
+    mcapi is a plugin providing rest api for minecraft server which can be used by everyone
+---
