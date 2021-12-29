@@ -3,9 +3,15 @@
 * [Getting Started](README.md)
 
 ## Plugin
-* [Configuration](plugin/configuration.md)
+* [Configuration](plugin/configuration/README.md)
+  * [config.yml](plugin/configuration/config.md)
+  * [commands.yml](plugin/configuration/commands.md)
+  * [localization.yml](plugin/configuration/localization.md)
+  * [storage.yml](plugin/configuration/storage.md)
 * [Commands](plugin/commands.md)
 * [Permission System](plugin/permission_system.md)
+* [Ignores](plugin/ignores.md)
+* [Link Ignores](plugin/link_ignores.md)
 
 ## Addons
 * [Addons](addons/README.md)
