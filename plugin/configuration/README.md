@@ -12,8 +12,8 @@ anothersomething: __inherit__something
 nothing: nothing
 ```
 
-`__globals__` contains global values
-values starts with `__inherit__` inherits from `__globals__`
+`__globals__` contains global values.
+Values starts with `__inherit__` inherits from `__globals__`
 so in the upper configuration `something` and `anothersomething` equals
 
 ```yml
@@ -24,4 +24,4 @@ anothersomething: __inherit__something
 nothing: nothing
 ```
 
-here something is overriding it global value so it will equal to `not bye`
+Here something is overriding it global value so it will equal to `not bye`
