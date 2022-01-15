@@ -1,5 +1,5 @@
 ---
-description: ->
+description: >-
     Description of ignores
 ---
 

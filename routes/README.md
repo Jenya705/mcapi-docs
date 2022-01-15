@@ -1,5 +1,5 @@
 ---
-description: ->
+description: >-
     List of all routes and their description
 ---
 
