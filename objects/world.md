@@ -3,6 +3,10 @@ description: >-
     Description of world rest object
 ---
 
+## ID
+
+World id is key of the world namespace (overworld, the_nether, the_end, etc.)
+
 ## Fields
 name: String - namespace of the world
 
