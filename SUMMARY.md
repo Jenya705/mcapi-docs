@@ -26,6 +26,7 @@
   * [Inventory](objects/inventory/README.md)
     * [Item Stack](objects/inventory/item_stack/README.md)
       * [Enchantment](objects/inventory/item_stack/enchantment.md)
+      * [Item Enchantment](objects/inventory/item_stack/item_enchantment.md)
   * [Block](objects/block.md)
   * [Block Data](objects/block_data/README.md)
     * [Barrel](objects/block_data/barrel.md)
