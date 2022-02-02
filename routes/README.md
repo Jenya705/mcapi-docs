@@ -5,19 +5,19 @@ description: >-
 
 ### GET /player/{id}
 
-Returns player with given id (id is uuid (with or without dashes) or player nickname)
+Returns [player](../objects/entity/living/player.md) with given [id](../objects/entity/living/player.md#id)
 
 ### GET /player/{id}/location
 
-Returns location of player with given id
+Returns location of player with given [id](../objects/entity/living/player.md#id)
 
 ### POST /player/{selector}/send
 
-Sends message to players by given selector
+Sends message to [players](../objects/entity/living/player.md) by given selector
 
 ### PUT /player/{selector}/ban
 
-Bans players by given selector. Reason of ban describes in body
+Bans [players](../objects/entity/living/player.md) by given selector. Reason of ban describes in body
 
 ### DELETE /player/{selector}/kick
 
