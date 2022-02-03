@@ -13,43 +13,43 @@ Returns location of player with given [id](../objects/entity/living/player.md#id
 
 ### POST /player/{selector}/send
 
-Sends message to [players](../objects/entity/living/player.md) by given selector
+Sends message to [players](../objects/entity/living/player.md) by given [selector](../object/entity/living/player.md#selector)
 
 ### PUT /player/{selector}/ban
 
-Bans [players](../objects/entity/living/player.md) by given selector. Reason of ban describes in body
+Bans [players](../objects/entity/living/player.md) by given [selector](../object/entity/living/player.md#selector). Reason of ban describes in body
 
 ### DELETE /player/{selector}/kick
 
-Kicks players by given selector. Reason of kick describes in body
+Kicks [players](../object/entity/living/player.md) by given [selector](../object/entity/living/player.md#selector). Reason of kick describes in body
 
 ### DELETE /player/{selector}/kill
 
-Kills players by given selector
+Kills [players](../object/entity/living/player.md) by given [selector](../object/entity/living/player.md#selector)
 
 ### GET /player/{id}/inventory
 
-Returns inventory object of player with given id
+Returns inventory object of [player](../object/entity/living/player.md) with given [id](../object/entity/living/player.md#id)
 
 ### GET /player/{id}/inventory/{item}
 
-Returns item from inventory of player with given id
+Returns item from inventory of [player](../object/entity/living/player.md) with given [id](../object/entity/living/player.md#id)
 
 ### POST /player/{id}/link
 
-Sends request to player to link with him. Link request describes in body
+Sends request to [player](../object/entity/living/player.md) to link with him. Link request describes in body
 
 ### GET /players/list
 
-Returns array of uuids of all online players
+Returns array of uuids of all online [players](../object/entity/living/player.md)
 
 ### GET /offline/{id}
 
-Returns offline player with given id
+Returns [offline player](../object/offline_player.md) with given id
 
 ### PUT /offline/{selector}/ban
 
-Bans offline players by given selector. Reason of ban describes in body
+Bans [offline players](../object/offline_player.md) by given [selector](../object/offline_player.md#selector). Reason of ban describes in body
 
 ### GET /bot/{selector}/linked
 

@@ -27,6 +27,14 @@ flySpeed: Optional Float - the player flySpeed. Empty is flySpeed is 0.05
 
 id of player is uuid or player nickname
 
+## Selector
+
+selector of player:
+* @a - all online players
+* @r - random online player
+* @l - linked online players
+* default: player by given [id](#id)
+
 ## Fields
 gamemode: Enum - current gamemode of the player (SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR)
 
