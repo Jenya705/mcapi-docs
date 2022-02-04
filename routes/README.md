@@ -45,7 +45,7 @@ Returns array of uuids of all online [players](../object/entity/living/player.md
 
 ### GET /offline/{id}
 
-Returns [offline player](../object/offline_player.md) with given id
+Returns [offline player](../object/offline_player.md) with given [id](../object/offline_player.md#id)
 
 ### PUT /offline/{selector}/ban
 
@@ -53,7 +53,7 @@ Bans [offline players](../object/offline_player.md) by given [selector](../objec
 
 ### GET /bot/{selector}/linked
 
-Returns bot links by given selector
+Returns bot links by given [selector](../object/bot.md#selector)
 
 ### GET /bot/{selector}/permission/{permission}
 
