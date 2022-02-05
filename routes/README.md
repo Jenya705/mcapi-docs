@@ -77,31 +77,31 @@ Returns world with given id
 
 ### GET /world/{id}/block/{x}/{y}/{z}
 
-Returns block with given coordinates from world with given id
+Returns [block](../objects/block.md) with given coordinates from [world](../objects/world.md) with given id
 
 ### GET /world/{id}/block/{x}/{y}/{z}/data
 
-Returns block data with given coordinates from world with given id
+Returns block data with given coordinates from [world](../objects/world.md) with given id
 
 ### GET /world/{id}/block/{x}/{y}/{z}/data/inventory
 
-Returns inventory object of block with given coordinates from world with given id
+Returns [inventory](../objects/inventory/README.md) object of [block](../objects/block.md) with given coordinates from [world](../objects/world.md) with given id
 
 ### GET /world/{id}/block/{x}/{y}/{z}/data/inventory/{item}
 
-Returns item from inventory of block with given coordinates from world with given id
+Returns [item](../objects/inventory/item_stack/README.md) from [inventory](../objects/inventory/README.md) of [block](../objects/block.md) with given coordinates from [world](../objects/world.md) with given id
 
 ### PUT /world/{id}/block/{x}/{y}/{z}/data/{name}
 
-Sets field with given name of block data with given coordinates from world with given id
+Sets field with given name of block data with given coordinates from [world](../objects/world.md) with given id
 
 ### GET /player/{id}/ender
 
-Returns ender chest inventory of player with given id
+Returns ender chest inventory of [player](../objects/entity/living/player.md) with given [id](../objects/entity/living/player.md#id)
 
 ### GET /player/{id}/ender/{item}
 
-Returns item from ender chest of player with given id
+Returns item from ender chest of player with given [id](../objects/entity/living/player.md#id)
 
 ### GET /entity/{id}
 
