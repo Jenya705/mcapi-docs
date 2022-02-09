@@ -4,7 +4,8 @@ description: >-
 ---
 
 ## Fields
-location: Location - location of the block
+location: [Location](location.md) - location of the block
+
 material: Material - material of the block
 
 ## Example

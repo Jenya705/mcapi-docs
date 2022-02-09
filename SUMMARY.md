@@ -18,6 +18,7 @@
 
 ## API
 * [Objects](objects/README.md)
+  * [Location](objects/location.md)
   * [Bot](objects/bot.md)
   * [Offline player](objects/offline_player.md)
   * [World](objects/world.md)

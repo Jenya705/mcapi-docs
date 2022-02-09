@@ -11,7 +11,7 @@ Entity id is it uuid
 
 type: Enum - type of the entity
 
-location: Optional Location - location of the entity
+location: Optional [Location](../location.md) - location of the entity
 
 customName: Optional Component - custom name of the entity
 

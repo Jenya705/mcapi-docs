@@ -9,71 +9,71 @@ Returns [player](../objects/entity/living/player.md) with given [id](../objects/
 
 ### GET /player/{id}/location
 
-Returns location of player with given [id](../objects/entity/living/player.md#id)
+Returns [location](../objects/location.md) of player with given [id](../objects/entity/living/player.md#id)
 
 ### POST /player/{selector}/send
 
-Sends message to [players](../objects/entity/living/player.md) by given [selector](../object/entity/living/player.md#selector)
+Sends message to [players](../objects/entity/living/player.md) by given [selector](../objects/entity/living/player.md#selector)
 
 ### PUT /player/{selector}/ban
 
-Bans [players](../objects/entity/living/player.md) by given [selector](../object/entity/living/player.md#selector). Reason of ban describes in body
+Bans [players](../objects/entity/living/player.md) by given [selector](../objects/entity/living/player.md#selector). Reason of ban describes in body
 
 ### DELETE /player/{selector}/kick
 
-Kicks [players](../object/entity/living/player.md) by given [selector](../object/entity/living/player.md#selector). Reason of kick describes in body
+Kicks [players](../objects/entity/living/player.md) by given [selector](../objects/entity/living/player.md#selector). Reason of kick describes in body
 
 ### DELETE /player/{selector}/kill
 
-Kills [players](../object/entity/living/player.md) by given [selector](../object/entity/living/player.md#selector)
+Kills [players](../objects/entity/living/player.md) by given [selector](../objects/entity/living/player.md#selector)
 
 ### GET /player/{id}/inventory
 
-Returns inventory object of [player](../object/entity/living/player.md) with given [id](../object/entity/living/player.md#id)
+Returns [inventory object](../objects/inventory/README.md) of [player](../objects/entity/living/player.md) with given [id](../objects/entity/living/player.md#id)
 
 ### GET /player/{id}/inventory/{item}
 
-Returns item from inventory of [player](../object/entity/living/player.md) with given [id](../object/entity/living/player.md#id)
+Returns [item](../objects/inventory/item_stack/README.md) from [inventory](../objects/inventory/README.md) of [player](../objects/entity/living/player.md) with given [id](../objects/entity/living/player.md#id)
 
 ### POST /player/{id}/link
 
-Sends request to [player](../object/entity/living/player.md) to link with him. Link request describes in body
+Sends request to [player](../objects/entity/living/player.md) to link with him. Link request describes in body
 
 ### GET /players/list
 
-Returns array of uuids of all online [players](../object/entity/living/player.md)
+Returns array of uuids of all online [players](../objects/entity/living/player.md)
 
 ### GET /offline/{id}
 
-Returns [offline player](../object/offline_player.md) with given [id](../object/offline_player.md#id)
+Returns [offline player](../objects/offline_player.md) with given [id](../objects/offline_player.md#id)
 
 ### PUT /offline/{selector}/ban
 
-Bans [offline players](../object/offline_player.md) by given [selector](../object/offline_player.md#selector). Reason of ban describes in body
+Bans [offline players](../objects/offline_player.md) by given [selector](../objects/offline_player.md#selector). Reason of ban describes in body
 
 ### GET /bot/{selector}/linked
 
-Returns bot links by given [selector](../object/bot.md#selector)
+Returns [bot](../objects/bot.md) links by given [selector](../objects/bot.md#selector)
 
 ### GET /bot/{selector}/permission/{permission}
 
-Returns bot global permission
+Returns [bot](../objects/bot.md) global permission
 
 ### GET /bot/{selector}/permission/{permission}/{target}
 
-Returns bot target permission
+Returns [bot](../objects/bot.md) target permission
 
 ### POST /command
 
-Creates bot command. Command describes in body
+Creates [bot](../objects/bot.md) command. Command describes in body
 
 ### DELETE /command/{name}
 
-Deletes bot command with given path (Spaces replaced by '_')
+Deletes [bot](../objects/bot.md) command with given path (Spaces replaced by '_')
 
 ### GET /world/{id}
 
-Returns world with given id
+Returns [world](../objects/world.md) with given [id](../objects/world.md#id)
 
 ### GET /world/{id}/block/{x}/{y}/{z}
 
