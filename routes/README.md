@@ -113,7 +113,7 @@ Captures entity with given id
 
 ### PUT /player/{selector}/inventory/open
 
-Opens [inventory](../objects/inventory/README.md) for player by given selector. Inventory is describeds in body
+Opens [inventory](../objects/inventory/README.md) for player by given selector. Inventory is described in body
 
 ### DELETE /player/{selector}/inventory/close
 

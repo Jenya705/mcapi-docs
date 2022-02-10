@@ -18,7 +18,7 @@ description: >-
 Join event is called everytime when player joins to the server.
 
 ### Fields
-player: UUID - player uuid
+player: Player - player who joined
 
 ## Link
 
@@ -74,7 +74,7 @@ placedBlock: Block - block, which was placed
 Quit event is called everytime when player quits the server
 
 ### Fields
-player: UUID - player uuid
+player: Offline player - player who quit
 
 ## Subscribe
 
