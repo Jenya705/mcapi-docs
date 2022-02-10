@@ -77,7 +77,7 @@ Returns [world](../objects/world.md) with given [id](../objects/world.md#id)
 
 ### GET /world/{id}/block/{x}/{y}/{z}
 
-Returns [block](../objects/block.md) with given coordinates from [world](../objects/world.md) with given id
+Returns [block](../objects/block.md) with given coordinates from [world](../objects/world.md) with given [id](../objects/world.md#id)
 
 ### GET /world/{id}/block/{x}/{y}/{z}/data
 
@@ -97,11 +97,11 @@ Sets field with given name of block data with given coordinates from [world](../
 
 ### GET /player/{id}/ender
 
-Returns ender chest inventory of [player](../objects/entity/living/player.md) with given [id](../objects/entity/living/player.md#id)
+Returns ender chest [inventory](../objects/inventory/README.md) of [player](../objects/entity/living/player.md) with given [id](../objects/entity/living/player.md#id)
 
 ### GET /player/{id}/ender/{item}
 
-Returns item from ender chest of player with given [id](../objects/entity/living/player.md#id)
+Returns [item](../objects/inventory/item_stack/README.md) from ender chest of [player](../objects/entity/living/player.md) with given [id](../objects/entity/living/player.md#id)
 
 ### GET /entity/{id}
 
@@ -113,8 +113,8 @@ Captures entity with given id
 
 ### PUT /player/{selector}/inventory/open
 
-Opens inventory for player by given selector. Inventory describes in body
+Opens [inventory](../objects/inventory/README.md) for player by given selector. Inventory is describeds in body
 
 ### DELETE /player/{selector}/inventory/close
 
-Closes inventory for player by given selector
+Closes [inventory](../objects/inventory/README.md) for player by given selector
