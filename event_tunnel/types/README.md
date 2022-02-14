@@ -12,6 +12,7 @@ description: >-
 * [quit](#quit)
 * [subscribe](#subscribe)
 * [unlink](#unlink)
+* [inventory_move](#inventory_move)
 
 ## Join
 
@@ -89,3 +90,18 @@ Unlink event is called when player unlinks with bot
 
 ### Fields
 player: UUID - player uuid
+
+## Inventory Move
+
+### Fields
+destinationSlot: Optional Integer - destination slot. Empty if no destination slot (e.g. air)
+
+sourceSlot: Optional Integer - source slot. Empty if no source slot.
+
+item: ItemStack - moved item.
+
+destination: Optional InventoryHolder - destination inventory holder. Empty if no destination inventory (e.g. air)
+
+source: Optional (InventoryHolder or String) - source inventory holder. "destination" if source inventory is destination inventory. Empty if no source inventory.
+
+initiator: Optional (InventoryHolder or String) - initiator inventory holder. "destination" if initiator inventory is destination inventory or "source" if initiator inventory is source inventory. Empty if no initiator.
