@@ -3,6 +3,10 @@ description: >-
     Description of block rest object
 ---
 
+## ID
+
+UUID of the block is UUID with mostSigBits = (x << 32) | z and leastSigBits = y;
+
 ## Fields
 location: [Location](location.md) - location of the block
 
