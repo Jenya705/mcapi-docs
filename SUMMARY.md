@@ -18,6 +18,7 @@
 
 ## API
 * [Objects](objects/README.md)
+  * [Potion Effect](objects/potion_effect.md)
   * [Location](objects/location.md)
   * [Bot](objects/bot.md)
   * [Offline player](objects/offline_player.md)

@@ -7,7 +7,10 @@ Living entity inherits Entity, so all entity properties will be moved to living 
 
 ## Fields
 ai: Optional Boolean - true if entity has ai otherwise empty
+
 health: Optional Float - health of the entity. Empty if health equals to 20
+
+effects: Optional List of Potion Effects - entity potion effects
 
 ## Example
 ```json
