@@ -13,4 +13,3 @@ key: String - name of enchantment
     "key": "minecraft:fire_resistance"
 }
 ```
-

@@ -18,6 +18,8 @@
 
 ## API
 * [Objects](objects/README.md)
+  * [Command](objects/command/README.md)
+    * [Command Option](objects/command/option.md)
   * [Potion Effect](objects/potion_effect.md)
   * [Location](objects/location.md)
   * [Bot](objects/bot.md)
