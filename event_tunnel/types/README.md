@@ -3,25 +3,25 @@ description: >-
     List of all events
 ---
 
-* [join](#join)
-* [link](#link)
+* [player_join](#playerjoin)
+* [player_link](#playerlink)
 * [menu_click](#menuclick)
-* [message](#message)
-* [block_break](#blockbreak)
-* [block_place](#blockplace)
-* [quit](#quit)
+* [chat_message](#chatmessage)
+* [player_block_break](#playerblockbreak)
+* [player_block_place](#playerblockplace)
+* [player_quit](#playerquit)
 * [subscribe](#subscribe)
-* [unlink](#unlink)
+* [player_unlink](#playerunlink)
 * [inventory_move](#inventory_move)
 
-## Join
+## PlayerJoin
 
 Join event is called everytime when player joins to the server.
 
 ### Fields
 player: Player - player who joined
 
-## Link
+## PlayerLink
 
 Link event is called everytime when player declines or accepting bot link
 
@@ -42,7 +42,7 @@ id: String - bot inventory id
 
 player: Player - player, who clicked
 
-## Message
+## ChatMessage
 
 Message event is called everytime when player type the message
 
@@ -52,7 +52,7 @@ message: String - player message
 
 author: UUID - author uuid
 
-## BlockBreak
+## PlayerBlockBreak
 
 Block break event is called everytime when player breaks the block
 
@@ -61,7 +61,7 @@ player: Player - player, who broke the block
 
 brokenBlock: Block - block, which was broken
 
-## Blockplace
+## PlayerBlockPlace
 
 Block place event is called everytime when player places the block
 
@@ -70,7 +70,7 @@ player: Player - player, who placed the block
 
 placedBlock: Block - block, which was placed
 
-## Quit
+## PlayerQuit
 
 Quit event is called everytime when player quits the server
 
@@ -84,7 +84,7 @@ Subscribe event is response to event tunnel subscription
 ### Fields
 failed: array of strings - failed subscriptions
 
-## Unlink
+## PlayerUnlink
 
 Unlink event is called when player unlinks with bot
 
